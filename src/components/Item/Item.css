@@ -1,0 +1,19 @@
+.Item {
+  width: 95%;
+  height: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  border: 1px solid black;
+  border-radius: 5px;
+
+  margin: 0.25rem;
+}
+
+.Item:hover {
+  cursor: pointer;
+}

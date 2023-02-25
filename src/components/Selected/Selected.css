@@ -1,0 +1,31 @@
+.Selected {
+  width: fit-content;
+  height: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  border: 1px solid black;
+  border-radius: 5px;
+
+  margin: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.Remove {
+  width: 0.5rem;
+
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+
+  margin: 0.1rem;
+}
+
+.Remove:hover {
+  cursor: pointer;
+}
